@@ -1,0 +1,171 @@
+@media (min-width: 1920px){
+    .comunicado{
+        width: 800px;
+        margin-left: 110px;
+    }
+    
+    .comunicado h1{
+        font-size: 45px;
+    }
+
+    .comunicado p{
+        font-size: 35px;
+        padding-right: 120px;
+    }
+
+    .formulario{
+        width: 850px;
+        height: 950px;
+    }
+
+    .formulario .campos input, textarea{
+        margin-bottom: 15px;
+        padding: 25px;
+        font-size: 40px;
+    }
+
+    .formulario .campos input{
+        width: 750px;
+        height: 80px;
+    }
+
+    .formulario .campos textarea{
+        height: 300px;
+    }
+
+    .formulario .campos .aviso{
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    .formulario .campos span{
+        font-size: 35px;
+    }
+
+    .formulario #btn-enviar{
+        width: 750px;
+        font-size: 35px;
+        height: 100px;
+    }
+    
+}
+
+@media (max-width: 1280px) {
+    .comunicado h1{
+        font-size: 30px;
+    }
+
+    .comunicado p{
+        font-size: 23px;
+        padding-right: 70px;
+    }
+
+    .formulario{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1024px){
+    .container{
+        align-items: center;
+    }
+    
+    .comunicado{
+        margin-left: 80px;
+    }
+    
+    .comunicado h1{
+        font-size: 22px;
+    }
+
+    .comunicado p{
+        font-size: 17px;
+        padding-right: 60px;
+    }
+
+    .formulario{
+        width: 600px;
+        margin-right: 50px;
+        margin-left: 30px;
+    }
+
+    .formulario form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario .campos input, textarea{
+        width: 400px;
+    }
+
+    .formulario #btn-enviar{
+        width: 400px;
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .comunicado{
+        display: none;
+    }
+
+    .formulario{
+        margin-left: 0;
+    }
+
+    .formulario .campos input, textarea{
+        width: 500px;
+    }
+
+    .formulario #btn-enviar{
+        width: 500px;
+    }
+}
+
+@media (max-width: 425px){
+    .container{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .comunicado{
+        display: none;
+    }
+
+    .formulario{
+        width: 350px;
+        height: 630px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .formulario .campos input, textarea{
+        font-size: 15px;
+    }
+    
+    .formulario .campos input{
+        width: 250px;
+    }
+
+    .formulario .campos textarea{
+        width: 250px;
+    }
+
+    .formulario .campos span{
+        font-size: 15px;
+    }
+
+    .formulario #btn-enviar{
+        width: 250px;
+        height: 50px;
+        font-size: 17px;
+    }
+}

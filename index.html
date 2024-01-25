@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="comunicado">
+            <h1>Ficou com dúvida? <br> Nos mande uma mensagem!</h1>
+
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
+                de 24h.</p>
+        </div>
+        <div class="formulario">
+            <form action="" method="" onsubmit="return false">
+                <div class="campos">
+                    <input type="text" name="nome" placeholder="Nome completo *" class="campo">
+                    <div class="aviso"></div>
+                    <input type="email" name="email" placeholder="Email *" class="campo">
+                    <div class="aviso"></div>
+                    <input type="tel" name="telefone" placeholder="Telefone *" class="campo"> 
+                    <div class="aviso"></div>
+                    <textarea name="mensagem" class="campo" cols="30" rows="10" placeholder="Mensagem *"></textarea>
+                    <div class="aviso"></div>
+                    <span>*campos obrigatórios</span> <br>
+                </div>
+                <button id="btn-enviar">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
